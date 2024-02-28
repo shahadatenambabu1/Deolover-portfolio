@@ -4,29 +4,70 @@ body {
     font-style: italic;
     margin: 0%;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.red-color{
+
+.red-color {
     color: red;
 }
-section{
+
+.flexible-container {
     display: flex;
 }
-.half-width{
+
+.half-width {
     width: 600%;
     padding: 2%;
+    box-shadow: 10px 10px gray;
 }
-.half-width img{
+
+.half-width img {
     width: 80%;
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
-    background-image: linear-gradient(orange,rgb(223, 65, 3));
+    background-image: linear-gradient(orange, rgb(223, 65, 3));
     padding: 10px 50px;
     border-radius: 5px;
 }
-.top-banner{
-    background-image: url(brack/pexels-felix-mittermeier-1039083.jpg);
+
+.top-banner {
+    background-image: url(brack/back.jpg);
     background-repeat: no-repeat;
+}
+
+.experience-area {
+    background-image: url(brack/back.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.dream-big {
+    background-image: url(brack/back.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-item {
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack-developer {
+    border-right: 10px solid red;
+}
+
+#baby-web-developer {
+    border-right: 10px solid yellow;
+}
+
+footer p {
+    text-align: center;
 }
